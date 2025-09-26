@@ -4,9 +4,11 @@ type: FEATURE
 distributor:
   type: SAMPLER
   sampler:
-    type: POSITIVE_WHITE_NOISE
-    salt: 4687
-  threshold: 0.003
+    type: CELLULAR
+    return: CellValue
+    frequency: 0.06
+    salt: 6541
+  threshold: 0.2
 
 locator:
   type: PATTERN
@@ -28,5 +30,11 @@ locator:
 
 structures:
   distribution:
-    type: WHITE_NOISE
-  structures: basalt_column_delta
+    type: CELLULAR
+    return: CellValue
+    frequency: 0.03
+    salt: 7687
+    threshold: 0.1
+  structures:
+    - basalt_column_delta: 3
+    - blank: 1

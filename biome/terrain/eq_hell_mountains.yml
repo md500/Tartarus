@@ -28,7 +28,7 @@ terrain:
               30, terraceVariation(x, z+2000)*4, 0, 1
             ),
            
-            -(-((y / 32)^2) + 52 + |(simplex2(x, z) * 10) + 0.1|)
+            -(-((y / 32)^2) + 52 + |(simplex2(x, z) * 5) + 0.1|)
           )
         )
       )

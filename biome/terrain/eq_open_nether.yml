@@ -17,11 +17,11 @@ terrain:
         if (y > netherTop, y,
           max(
             max(
-              if(y, abs(y-64)/128 + simplex3(x, y, z)*5 - 1, 1), 
+              if(y, abs(y-64)/128 + simplex3(x, y*2, z)*5 - 1, 1), 
                 -((y / 28)^2) + 1 + simplex2(x, z)*1.25), 
                   -(((-((y / (base))^2)) + 1) + |(simplex2(x, z) / 3)|
             )
-          )
+          ) 
         )
       )
 

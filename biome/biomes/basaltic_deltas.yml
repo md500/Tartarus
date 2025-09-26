@@ -1,6 +1,8 @@
 id: BASALTIC_DELTAS
 type: BIOME
-extends: [ BASE, EQ_OPEN_NETHER ]
+extends:
+  - BASE
+  - EQ_OPEN_NETHER
 
 vanilla: minecraft:basalt_deltas
 
@@ -12,7 +14,6 @@ palette:
 features:
   landforms: 
     - BASALT_COLUMN_LAVA
-    - BASALT_COLUMN_DELTA
     - BASALT_TERRAIN_SPIKES_LAVA
     - BASALT_TERRAIN_SPIKES
     - GLOWSTONE_SPIKE

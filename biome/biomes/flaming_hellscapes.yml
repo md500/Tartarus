@@ -1,6 +1,8 @@
 id: FLAMING_HELLSCAPES
 type: BIOME
-extends: [ BASE, EQ_OPEN_NETHER ]
+extends:
+  - BASE
+  - EQ_OPEN_NETHER
 
 vanilla: minecraft:nether_wastes
 

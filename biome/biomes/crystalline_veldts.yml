@@ -1,6 +1,8 @@
 id: CRYSTALLINE_VELDTS
 type: BIOME
-extends: [ BASE, EQ_CRYSTALLINE_VELDTS ]
+extends:
+  - BASE
+  - EQ_CRYSTALLINE_VELDTS
 
 vanilla: minecraft:warped_forest
 

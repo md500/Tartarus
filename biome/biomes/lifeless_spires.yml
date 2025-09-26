@@ -1,6 +1,8 @@
 id: LIFELESS_SPIRES
 type: BIOME
-extends: [ BASE, EQ_SPIRES ]
+extends:
+  - BASE
+  - EQ_SPIRES
 
 vanilla: minecraft:basalt_deltas
 

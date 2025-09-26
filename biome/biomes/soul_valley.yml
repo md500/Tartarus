@@ -1,6 +1,8 @@
 id: SOUL_VALLEY
 type: BIOME
-extends: [ BASE, EQ_SOUL_VALLEY ]
+extends:
+  - BASE
+  - EQ_SOUL_VALLEY
 
 vanilla: minecraft:soul_sand_valley
 

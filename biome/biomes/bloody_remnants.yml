@@ -1,6 +1,8 @@
 id: BLOODY_REMNANTS
 type: BIOME
-extends: [ BASE, EQ_STANDARD_NETHER ]
+extends:
+  - BASE
+  - EQ_STANDARD_NETHER
 
 vanilla: minecraft:crimson_forest
 

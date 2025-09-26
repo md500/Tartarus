@@ -1,6 +1,8 @@
 id: TORRID_CRAGS
 type: BIOME
-extends: [ BASE, EQ_HELL_MOUNTAINS ]
+extends:
+  - BASE
+  - EQ_HELL_MOUNTAINS
 
 vanilla: minecraft:nether_wastes
 
