@@ -6,6 +6,7 @@ extends:
   - MOB_VEX
 
 vanilla: minecraft:basalt_deltas
+color: $biomes/colors.yml:THE_BOUNDARY
 
 palette:
   - BLOCK:minecraft:deepslate: $options.yml:top-y
