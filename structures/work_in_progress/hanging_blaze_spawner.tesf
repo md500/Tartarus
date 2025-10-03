@@ -47,7 +47,7 @@ for (num y = -1; y <= height; y = y + 1) {
 
         // chains
             if (x == 0 && z == 0 && (y != 3 && y > 0 && y < height)) {
-                block(x,y,z,"minecraft:chain");
+                block(x,y,z,"minecraft:iron_chain");
             }
 
         // iron bars
