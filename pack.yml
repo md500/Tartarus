@@ -1,5 +1,5 @@
 id: TARTARUS
-version: 0.6.0
+version: 1.0.0
 author: "Jaddot"
 
 generator: NOISE_3D
@@ -56,3 +56,4 @@ functions:
 samplers:
   "<<":
     - samplers/samplers.yml:samplers
+
