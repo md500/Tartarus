@@ -13,6 +13,7 @@ spawning:
       entries:
         - type:
             id: minecraft:vex
-          min-group-size: 4
-          max-group-size: 4
+          group-size:
+            min: 4
+            max: 4
           weight: 45
