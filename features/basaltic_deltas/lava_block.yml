@@ -13,8 +13,8 @@ locator:
   locators:
     - type: PATTERN
       range: &range
-        min: 32
-        max: 255
+        min: $options.yml:lava-level
+        max: $options.yml:nether-top-y
       pattern:
         type: MATCH_SET
         blocks: 

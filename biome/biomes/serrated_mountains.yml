@@ -1,12 +1,15 @@
 id: SERRATED_MOUNTAINS
 type: BIOME
-extends: [ BASE, EQ_HELL_MOUNTAINS ]
+extends:
+  - BASE
+  - EQ_HELL_MOUNTAINS
 
 vanilla: minecraft:basalt_deltas
 
 palette:
-  - BASALTIC_GROUND: 251
-  - << palettes/strata/strata.yml:palette
+  - << options.yml:palette-top
+  - BASALTIC_GROUND: $options.yml:nether-top-y
+  - << options.yml:palette-bottom
   
 features:
   landforms: 

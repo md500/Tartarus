@@ -6,4 +6,4 @@ extends:
 
 ocean:
   palette: BLOCK:minecraft:lava
-  level: 32
+  level: $options.yml:lava-level

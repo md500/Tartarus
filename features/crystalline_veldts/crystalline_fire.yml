@@ -11,8 +11,8 @@ distributor:
 locator:
   type: SURFACE
   range:
-    min: 34
-    max: 255
+    min: ${options.yml:lava-level} + 2
+    max: $options.yml:nether-top-y
 
 structures:
   distribution:

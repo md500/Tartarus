@@ -9,7 +9,7 @@ Tartarus is a Terra world generation pack for Minecraft Java v1.19 that adds 12 
 Nether Fortresses and Bastion Remnants just like vanilla.
 
 ## Ore Generation
-Nether Gold, Quartz, and Ancient Debris that generate similar to vanilla nether ore generation.
+Nether Gold, Quartz, and Ancient Debris generate to resemble vanilla nether ore generation as best as possible.
 
 ## Credits
 Tartarus was made possible only through the help and support from the PolyhedralDev team, as well as the default Overworld config packaged with Terra, which some edited configs can be found in various assets in Tartarus. You can check out the pack here: https://github.com/PolyhedralDev/TerraOverworldConfig
@@ -17,10 +17,15 @@ Tartarus was made possible only through the help and support from the Polyhedral
 ## Biome List
 A list of screenshots and descriptions of all the biomes included in this pack can be found on the Wiki of this repository.
 
-## Installing this pack
-> Currently, you are only able to use this on Bukkit. While you technically *could* install this on other platforms, you have no option to generate this in the Nether. If you want to use this pack on Fabric, Forge, or other supported platforms, and you don't mind having Nether terrain in the Overworld, feel free to use this pack.
+## Installation
+Download the Tartarus pack from the [releases page](https://github.com/PolyhedralDev/Tartarus/releases) for a reliable pack version
+or from the main Tartarus branch for changes that haven't been applied to the latest release yet.
 
-See how to install Tartarus [here](https://github.com/Jason-Ding19/Tartarus/wiki/Pack-Installation).
+Follow this [installation guide](https://terra.polydev.org/install/index.html) for your particular platform.
+
+Fabric users will have to edit the `level.dat` in order to apply custom generation to the end dimension.
+
+See how to install Tartarus [here](https://github.com/PolyhedralDev/Tartarus/wiki/Pack-Installation).
 
 #### Bukkit.yml Quick Reference 
 ##### Affects just the Vanilla Nether Dimension

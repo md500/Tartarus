@@ -11,8 +11,8 @@ distributor:
 locator:
   type: PATTERN
   range:
-    min: 0
-    max: 32
+    min: ${options.yml:bottom-y} + 5
+    max: $options.yml:lava-level
   pattern:
     type: MATCH
     block: minecraft:netherrack

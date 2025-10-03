@@ -4,15 +4,17 @@ type: FEATURE
 distributor:
   type: SAMPLER
   sampler:
-    type: POSITIVE_WHITE_NOISE
-    salt: 3437
-  threshold: 0.75
+    type: CELLULAR
+    return: CellValue
+    frequency: 0.06
+    salt: 6541
+  threshold: 0.2
 
 locator:
   type: PATTERN
   range:
-    min: 1
-    max: 24
+    min: ${options.yml:bottom-y} + 5
+    max: $options.yml:nether-top-y
   pattern:
     type: AND
     patterns:
@@ -27,5 +29,11 @@ locator:
 
 structures:
   distribution:
-    type: WHITE_NOISE
-  structures: basalt_terrain_spikes_lava
+    type: CELLULAR
+    return: CellValue
+    frequency: 0.03
+    salt: 7687
+    threshold: 0.1
+  structures:
+    - basalt_terrain_spikes_lava: 3
+    - blank: 1

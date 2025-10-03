@@ -1,0 +1,12 @@
+id: THE_BOUNDARY
+type: BIOME
+extends:
+  - BASE
+  - EQ_THE_BOUNDARY
+  - MOB_VEX
+
+vanilla: minecraft:basalt_deltas
+
+palette:
+  - BLOCK:minecraft:deepslate: $options.yml:top-y
+  - << options.yml:palette-bottom

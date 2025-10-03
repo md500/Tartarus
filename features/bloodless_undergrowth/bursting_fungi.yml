@@ -11,8 +11,8 @@ distributor:
 locator:
   type: PATTERN
   range:
-    min: 40
-    max: 255
+    min: $options.yml:lava-level
+    max: $options.yml:nether-top-y
   pattern:
     type: AND
     patterns:

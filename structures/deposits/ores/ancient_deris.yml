@@ -8,3 +8,5 @@ replace:
 material: minecraft:ancient_debris
 
 size: 3
+
+exposed: 0

@@ -44,8 +44,15 @@ quartz:
     max: 80
 
 ancient_debris:
-  averageCountPerChunk: 1/2
-  salt: 6008
+  averageCountPerChunk: 33/60
+  salt: 3546
   range:
     min: 8
-    max: 22
+    max: 24
+
+ancient_debris-uniform:
+  averageCountPerChunk: 33/60
+  salt: 3546
+  range:
+    min: 8
+    max: 119

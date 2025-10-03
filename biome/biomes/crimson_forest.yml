@@ -1,12 +1,15 @@
 id: CRIMSON_FOREST
 type: BIOME
-extends: [ BASE, EQ_STANDARD_NETHER ]
+extends:
+  - BASE
+  - EQ_STANDARD_NETHER
 
 vanilla: minecraft:crimson_forest
 
 palette:
-  - CRIMSON_GROUND: 251
-  - << palettes/strata/strata.yml:palette
+  - << options.yml:palette-top
+  - CRIMSON_GROUND: $options.yml:nether-top-y
+  - << options.yml:palette-bottom
   
 features:
   landforms: 

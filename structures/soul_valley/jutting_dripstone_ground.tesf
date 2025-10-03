@@ -25,6 +25,7 @@ for(num l = 0; l <= length; l = l + 1) {
             for(num z = -r; z <= r; z = z + 1) {
                 if (pow(x,2)+pow(y,2)+pow(z,2) < pow(r,2)) {
 					block(l*dx + x, l*dy + y - radius, l*dz + z, "minecraft:dripstone_block", true);
+                    block(l*dx + x, l*dy + y - radius - 1, l*dz + z, "minecraft:dripstone_block", true);
                 }
             }
         }

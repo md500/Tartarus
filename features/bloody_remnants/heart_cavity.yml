@@ -12,8 +12,8 @@ locator:
   type: GAUSSIAN_RANDOM
   amount: 1
   height:
-    min: 0
-    max: 255
+    min: ${options.yml:bottom-y} + 5
+    max: $options.yml:nether-top-y
   standard-deviation: 8
 
 structures:
