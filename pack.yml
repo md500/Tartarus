@@ -4,11 +4,8 @@ author: "Jaddot"
 
 generator: NOISE_3D
 
-vanilla: "minecraft:the_nether"
-vanilla-generation: "minecraft:nether"
-
 addons:
-  biome-provider-pipeline: "2.+"
+  biome-provider-pipeline-v2: "1.+"
   biome-provider-single: "1.+"
   biome-provider-image: "1.+"
   biome-provider-extrusion: "1.+"
