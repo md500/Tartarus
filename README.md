@@ -4,6 +4,8 @@
 >
 > # This version is **NOT supported** by the original developers !
 >
+> # Do not report bugs from this build to the official bug tracker.
+>
 > This fork reverts 2 commits from v7.0 development that are incompatible.
 >
 > If you use Terra v7.0+ / 1.21.9+  or you want older versions of Tartarus for older versions of Terra, use the official repository: [**PolyhedralDev/Tartarus**](https://github.com/PolyhedralDev/Tartarus).
