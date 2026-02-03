@@ -1,3 +1,14 @@
+> [!IMPORTANT]
+>
+> # This is an **unofficial fork** for **Terra v6.6.6** official beta release.
+>
+> # This version is **NOT supported** by the original developers !
+>
+> This fork reverts 2 commits from v7.0 development that are incompatible.
+>
+> If you use Terra v7.0+ / 1.21.9+  or you want older versions of Tartarus for older versions of Terra, use the official repository: [**PolyhedralDev/Tartarus**](https://github.com/PolyhedralDev/Tartarus).
+> 
+
 ![tartarus_logo](https://user-images.githubusercontent.com/76827500/179134441-5eb9b4b6-623c-401c-a84a-61bd138140e9.png)
 
 # **Tartarus**
